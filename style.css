@@ -1,0 +1,26 @@
+.container {
+  display: grid;
+  justify-content: center;
+}
+
+.form {
+  padding-top: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 0.5rem;
+}
+
+.form.submitted input:invalid {
+  border: 1.7px solid rgb(255, 0, 0,70%);
+  border-radius: 3px;
+}
+
+#error {
+  padding-top: 1rem;
+  color: rgb(255, 0, 0,70%);
+}
+
+#error > p {
+  display: block;
+  margin: 0%;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="index.js" defer></script>
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Constraint-Validation-API</h1>
+    <div class="form">
+
+      <label for="email">Email:</label>
+      <input name="email" id="email" type="email" required>
+
+      <label for="country">Country:</label>
+      <input name="country" id="country" type="text" required>
+
+      <label for="zip-code">Zip code:</label>
+      <input name="zip-code" id="zip-code" type="text" required>
+
+      <label for="password">Password:</label>
+      <input name="password" id="password" type="password" required>
+
+      <label for="password-confirm">Password confirmation:</label>
+      <input name="password-confirm" id="password-confirm" type="password" required>
+      
+      <div></div>
+      <button>submit</button>
+
+    </div>
+
+    <div id="error"></div>
+  </div>
+</body>
+</html>
